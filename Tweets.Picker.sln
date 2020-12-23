@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweets.Picker", "Tweets.Picker\Tweets.Picker.csproj", "{C1BA3704-AD3B-4F74-BA94-143E24BF8DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker", "Tweets.Picker\Tweets.Picker.csproj", "{C1BA3704-AD3B-4F74-BA94-143E24BF8DB0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Host Layer", "1. Host Layer", "{FDF6DC8D-EB42-4FC7-AC28-2DDF80A754AE}"
 EndProject
@@ -37,6 +37,36 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Cross Cutting", "2. Cros
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Service Provider", "3. Service Provider", "{E43FA5BF-592F-485F-95A6-332B4EBDBD72}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.Infra.Service.Provider.TwitterGateway", "Tweets.Picker.Infra.Service.Provider.Provider\Tweets.Picker.Infra.Service.Provider.TwitterGateway.csproj", "{F876272B-2B4A-4163-A896-5135DCBB6A4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.Infra.Service.Provider.TwitterGateway.Imp", "Tweets.Picker.Infra.Service.Provider.TwitterGateway.Imp\Tweets.Picker.Infra.Service.Provider.TwitterGateway.Imp.csproj", "{60C432C6-E627-4AA4-A293-CC893BF93065}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.Services.Model", "Tweets.Picker.Services.Model\Tweets.Picker.Services.Model.csproj", "{153B2DB5-510D-4C4F-A9FD-B0E1AC372D91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.Infra.CrossCutting.DI", "Tweets.Picker.Infra.CrossCutting.DI\Tweets.Picker.Infra.CrossCutting.DI.csproj", "{193E6CAF-3DD4-4933-81FE-601A18F6C08C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.Services", "Tweets.Picker.Services\Tweets.Picker.Services.csproj", "{5F69884E-5D6C-48A8-9A37-AC36C3ADA496}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.Services.Imp", "Tweets.Picker.Services.Imp\Tweets.Picker.Services.Imp.csproj", "{7455F035-9948-431E-89F2-E590C88167F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.App.Services", "Tweets.Picker.App.Services\Tweets.Picker.App.Services.csproj", "{0B64AE1D-2240-4D9E-9F18-13DD03A753E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.App.Services.Imp", "Tweets.Picker.App.Services.Imp\Tweets.Picker.App.Services.Imp.csproj", "{2012F212-ADC9-46D6-BA40-9074814858CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweet.Picker.App.Messages", "Tweet.Picker.App.Messages\Tweet.Picker.App.Messages.csproj", "{130DC657-9046-4F77-9E5A-8A83A2C45E5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.Mappers", "Tweets.Picker.Mappers\Tweets.Picker.Mappers.csproj", "{11B8B356-CAEB-4ABA-8733-1B5CE54FDCC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.Infra.Data", "Tweets.Picker.Infra.Data\Tweets.Picker.Infra.Data.csproj", "{8C585D36-B763-4ECE-B2DC-56EF001013FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tweets.Picker.Infra.Data.Imp", "Tweets.Picker.Infra.Data.Imp\Tweets.Picker.Infra.Data.Imp.csproj", "{3F480063-02BD-4A57-B1ED-604F1DC6D653}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquivos Fonte", "Arquivos Fonte", "{3138ED57-9572-4A8A-AA89-550A92551F01}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\Carlinhos\Desktop\TCC\homofobia.txt = ..\..\Users\Carlinhos\Desktop\TCC\homofobia.txt
+		..\..\Users\Carlinhos\Desktop\TCC\racismo.txt = ..\..\Users\Carlinhos\Desktop\TCC\racismo.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +77,54 @@ Global
 		{C1BA3704-AD3B-4F74-BA94-143E24BF8DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1BA3704-AD3B-4F74-BA94-143E24BF8DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1BA3704-AD3B-4F74-BA94-143E24BF8DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F876272B-2B4A-4163-A896-5135DCBB6A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F876272B-2B4A-4163-A896-5135DCBB6A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F876272B-2B4A-4163-A896-5135DCBB6A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F876272B-2B4A-4163-A896-5135DCBB6A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C432C6-E627-4AA4-A293-CC893BF93065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C432C6-E627-4AA4-A293-CC893BF93065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C432C6-E627-4AA4-A293-CC893BF93065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C432C6-E627-4AA4-A293-CC893BF93065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153B2DB5-510D-4C4F-A9FD-B0E1AC372D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153B2DB5-510D-4C4F-A9FD-B0E1AC372D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153B2DB5-510D-4C4F-A9FD-B0E1AC372D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153B2DB5-510D-4C4F-A9FD-B0E1AC372D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193E6CAF-3DD4-4933-81FE-601A18F6C08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193E6CAF-3DD4-4933-81FE-601A18F6C08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193E6CAF-3DD4-4933-81FE-601A18F6C08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193E6CAF-3DD4-4933-81FE-601A18F6C08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F69884E-5D6C-48A8-9A37-AC36C3ADA496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F69884E-5D6C-48A8-9A37-AC36C3ADA496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F69884E-5D6C-48A8-9A37-AC36C3ADA496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F69884E-5D6C-48A8-9A37-AC36C3ADA496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7455F035-9948-431E-89F2-E590C88167F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7455F035-9948-431E-89F2-E590C88167F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7455F035-9948-431E-89F2-E590C88167F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7455F035-9948-431E-89F2-E590C88167F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B64AE1D-2240-4D9E-9F18-13DD03A753E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B64AE1D-2240-4D9E-9F18-13DD03A753E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B64AE1D-2240-4D9E-9F18-13DD03A753E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B64AE1D-2240-4D9E-9F18-13DD03A753E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2012F212-ADC9-46D6-BA40-9074814858CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2012F212-ADC9-46D6-BA40-9074814858CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2012F212-ADC9-46D6-BA40-9074814858CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2012F212-ADC9-46D6-BA40-9074814858CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130DC657-9046-4F77-9E5A-8A83A2C45E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130DC657-9046-4F77-9E5A-8A83A2C45E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130DC657-9046-4F77-9E5A-8A83A2C45E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130DC657-9046-4F77-9E5A-8A83A2C45E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B8B356-CAEB-4ABA-8733-1B5CE54FDCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B8B356-CAEB-4ABA-8733-1B5CE54FDCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B8B356-CAEB-4ABA-8733-1B5CE54FDCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B8B356-CAEB-4ABA-8733-1B5CE54FDCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C585D36-B763-4ECE-B2DC-56EF001013FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C585D36-B763-4ECE-B2DC-56EF001013FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C585D36-B763-4ECE-B2DC-56EF001013FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C585D36-B763-4ECE-B2DC-56EF001013FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F480063-02BD-4A57-B1ED-604F1DC6D653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F480063-02BD-4A57-B1ED-604F1DC6D653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F480063-02BD-4A57-B1ED-604F1DC6D653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F480063-02BD-4A57-B1ED-604F1DC6D653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +144,19 @@ Global
 		{C3E2601A-1672-4D5C-9D5F-7F4CF1C15989} = {FDFC3CD2-9164-4D3E-848C-EFB8231BB68D}
 		{F6149A17-957A-43E9-B904-A94E01366A7F} = {FDFC3CD2-9164-4D3E-848C-EFB8231BB68D}
 		{E43FA5BF-592F-485F-95A6-332B4EBDBD72} = {FDFC3CD2-9164-4D3E-848C-EFB8231BB68D}
+		{F876272B-2B4A-4163-A896-5135DCBB6A4E} = {E43FA5BF-592F-485F-95A6-332B4EBDBD72}
+		{60C432C6-E627-4AA4-A293-CC893BF93065} = {E43FA5BF-592F-485F-95A6-332B4EBDBD72}
+		{153B2DB5-510D-4C4F-A9FD-B0E1AC372D91} = {E7DC79C0-98A2-4846-858A-3CAB75A38DB8}
+		{193E6CAF-3DD4-4933-81FE-601A18F6C08C} = {F6149A17-957A-43E9-B904-A94E01366A7F}
+		{5F69884E-5D6C-48A8-9A37-AC36C3ADA496} = {11A75F1B-AA30-4D5F-9580-FFD8DD199377}
+		{7455F035-9948-431E-89F2-E590C88167F3} = {11A75F1B-AA30-4D5F-9580-FFD8DD199377}
+		{0B64AE1D-2240-4D9E-9F18-13DD03A753E4} = {03C16686-F446-47F8-829F-E26E88056DAB}
+		{2012F212-ADC9-46D6-BA40-9074814858CC} = {03C16686-F446-47F8-829F-E26E88056DAB}
+		{130DC657-9046-4F77-9E5A-8A83A2C45E5A} = {0B267025-1E05-49EF-B4D4-05200972D7F2}
+		{11B8B356-CAEB-4ABA-8733-1B5CE54FDCC4} = {90F8EE9F-0B9C-4312-A90C-3247769C3159}
+		{8C585D36-B763-4ECE-B2DC-56EF001013FB} = {C3E2601A-1672-4D5C-9D5F-7F4CF1C15989}
+		{3F480063-02BD-4A57-B1ED-604F1DC6D653} = {C3E2601A-1672-4D5C-9D5F-7F4CF1C15989}
+		{3138ED57-9572-4A8A-AA89-550A92551F01} = {494ACA14-4B9A-4FC3-8DC2-0C768841EB97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B17D46B-02DF-45C8-B667-C113A0C6472A}

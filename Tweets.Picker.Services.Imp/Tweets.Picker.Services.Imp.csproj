@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tweets.Picker.Infra.Data\Tweets.Picker.Infra.Data.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.Infra.Service.Provider.Provider\Tweets.Picker.Infra.Service.Provider.TwitterGateway.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.Services\Tweets.Picker.Services.csproj" />
+  </ItemGroup>
+
+</Project>

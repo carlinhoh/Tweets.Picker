@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tweet.Picker.App.Messages\Tweet.Picker.App.Messages.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.App.Services\Tweets.Picker.App.Services.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.Mappers\Tweets.Picker.Mappers.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.Services.Model\Tweets.Picker.Services.Model.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.Services\Tweets.Picker.Services.csproj" />
+  </ItemGroup>
+
+</Project>

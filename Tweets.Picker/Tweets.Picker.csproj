@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -8,7 +8,19 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.6.0" />
     <PackageReference Include="TweetinviAPI" Version="4.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tweet.Picker.App.Messages\Tweet.Picker.App.Messages.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.App.Services.Imp\Tweets.Picker.App.Services.Imp.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.App.Services\Tweets.Picker.App.Services.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.Infra.CrossCutting.DI\Tweets.Picker.Infra.CrossCutting.DI.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.Infra.Service.Provider.TwitterGateway.Imp\Tweets.Picker.Infra.Service.Provider.TwitterGateway.Imp.csproj" />
+    <ProjectReference Include="..\Tweets.Picker.Services.Imp\Tweets.Picker.Services.Imp.csproj" />
   </ItemGroup>
 
 
